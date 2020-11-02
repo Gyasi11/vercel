@@ -56,11 +56,10 @@
 }
 
 .professionalExperiences {
-  height: 600px;
+  height: 1000px;
   min-height: 25vh;  
   display: grid;
-  grid-template-columns:  10% 40% 40% 20%;
- /* border: 5px green solid; */
+  grid-template-columns:  10% 35% 10% 35% 20%;
 
 }
 
@@ -81,13 +80,22 @@
     height: 80px;
     width: 80px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
+
+  .circularIcon img {
+      height: 40px;
+      width: 40px;
+      clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
 
 
   .gridItem p {
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
   }
   .gridItem button {
@@ -101,15 +109,53 @@
   }
 
 
+  .professionalExperiences #cardDevelopment{
+    height: 750px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #6CC1FA;
+    color: #ffffff;
+    width: 25vw;
+    max-width: 500px;
+  }
+
+  #cardDevelopment h3 {
+    font-size: 24px;
+    margin-top: 2em;
+    margin-left: 2em;
+  }
+
+  #cardDevelopment p {
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 2em;
+    width: 75%;
+  }
+
+  #cardDevelopment img {
+    width:100%;
+    height: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    object-fit: cover;
+    border-radius: 10px 10px 10px 0px;
+  }
+
+  #contentImage img {
+    height: 750px;
+    width: 500px;
+    border-radius: 10px;
+  }
 .youTube {
-  height: 600px;
-  min-height: 25vh;
+  height: 1000px;
+  min-height: 25vh;  
+  display: grid;
+  grid-template-columns:  10% 35% 10% 35% 20%;
+  margin-block-start: 50px;
+ /* border: 5px green solid; */
 }
 
-.youTube {
-  height: 600px;
-  min-height: 25vh;
-}
+
 
 
 
