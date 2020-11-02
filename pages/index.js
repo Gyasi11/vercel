@@ -9,7 +9,7 @@ export default function Home() {
         <img src="/laptop-on-counter.jpg" />
         <figcaption>
           <h1>Gyasi-Linje</h1>
-          <p>Developer + Content Creator</p>
+          <h4>Developer + Content Creator</h4>
         </figcaption>
         </figure>
       </div>

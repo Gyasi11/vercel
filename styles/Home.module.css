@@ -44,15 +44,18 @@
 }
 
 .hero h1 {
-  font-size: 32px;
   transform: rotate(-2deg);
+  color: #ffffff;
+  font-size: 3em;
 }
 
-.hero p {
-  font-size: 14px;
+
+.hero h4 {
+  font-size: 1.125rem;
   font-weight: 300;
   margin: 0.5em;
   transform: rotate(-2deg);
+  color: #e2e8f0;
 }
 
 .professionalExperiences {
@@ -95,17 +98,25 @@
 
   .gridItem p {
     text-align: left;
-    font-size: 16px;
-    font-weight: 200;
+    font-weight: 100;
+    line-height: 2em;
+    font-size: 1.125rem;
+    color: #4a5568;
   }
+
   .gridItem button {
     text-align: left;
     border: none;
     background: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
-    letter-spacing: .5px;
     padding-top: 10px;
+    transition: all .2s ease-in-out;
+  }
+
+  .gridItem button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
   }
 
 
@@ -131,6 +142,7 @@
     font-size: 20px;
     margin-left: 2em;
     width: 75%;
+    color: #ffffff;
   }
 
   #cardDevelopment img {
