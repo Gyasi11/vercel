@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
+    <div class="container">
       <div className={styles.hero}>
         <figure id={styles.bgImage}>
         <img src="/laptop-on-counter.jpg" />
@@ -87,3 +87,5 @@ export default function Home() {
 
   )
 }
+
+
