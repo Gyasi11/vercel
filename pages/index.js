@@ -83,6 +83,25 @@ export default function Home() {
         </div>
         <div className={styles.gridItem}></div>
       </div>
+
+      <div className={styles.contact}>
+      <div className={styles.gridItem}></div>
+      <div className={styles.gridItem}> <div id={styles.contentImage}>
+          <figure >
+            <img src="/contentCreation.jpg"/>
+          </figure>
+         
+          </div></div>
+      <div className={styles.gridItem}>
+     
+      </div>
+      <div className={styles.gridItem}> <form action="https://formspree.io/f/xvovrwkz" method="POST">
+        <input type="text" name="name"/>
+        <input type="email" name="_replyto"/>
+        <input type="submit" value="Send"/>
+      </form></div>
+      <div className={styles.gridItem}></div>
+      </div>
     </div>
 
   )

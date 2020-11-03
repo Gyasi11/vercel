@@ -55,6 +55,7 @@ overflow: hidden;
 .professionalExperiences {
   height: 1000px;
   min-height: 25vh;  
+  margin-block-start: 50px;
   display: grid;
   grid-template-columns:  10% 35% 10% 35% 20%;
 
@@ -64,7 +65,6 @@ overflow: hidden;
   /* background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 20px;
-  margin-top: 5em;
   font-size: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -149,7 +149,7 @@ overflow: hidden;
 
   #contentImage img {
     height: 750px;
-    width: 500px;
+    max-width: 500px;
     border-radius: 10px;
   }
 .youTube {
@@ -157,9 +157,19 @@ overflow: hidden;
   min-height: 25vh;  
   display: grid;
   grid-template-columns:  10% 35% 10% 35% 20%;
-  margin-block-start: 50px;
+  margin-block-start: 10em;
  /* border: 5px green solid; */
 }
+
+.contact {
+  height: 500px;
+  min-height: 25vh;
+  display: grid;
+  margin-block-start: 10em;
+  grid-template-columns:  10% 35% 10% 35% 20%;
+}
+
+
 
 
 
