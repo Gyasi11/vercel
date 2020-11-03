@@ -41,6 +41,7 @@ export default function Home() {
         <div className={styles.gridItem}></div>
         <div className={styles.gridItem}>
           <div id={styles.cardDevelopment}>
+            
             <img src="/blake-connally-B3l0g6HLxr8-unsplash.jpg"/>
               <h3> My Top Programming Skillsets </h3>
               <p>My favorite programming Languages and Frameworks are JavaScript, Python, Material Design,  CSS/HTML, Angular, VueJS, and Next.JS. </p>
@@ -86,20 +87,32 @@ export default function Home() {
 
       <div className={styles.contact}>
       <div className={styles.gridItem}></div>
-      <div className={styles.gridItem}> <div id={styles.contentImage}>
-          <figure >
-            <img src="/contentCreation.jpg"/>
-          </figure>
-         
-          </div></div>
+      <div className={styles.gridItem}> 
+      <div className={styles.circularIcon}>
+            <img src="/email.png" />
+          </div>
+      <div id={styles.contentImage}>
+      <h3> Connect with me </h3>
+      <form action="https://formspree.io/f/xvovrwkz" method="POST">
+        <input placeholder="Enter message here..." id={styles.summary} type="text" name="name"/>
+        <input placeholder="Email" id={styles.emailAddress} type="email" name="_replyto"/>
+        <input id={styles.send} type="submit" value="Send"/>
+      </form>
+          </div>
+          
+          </div>
       <div className={styles.gridItem}>
      
       </div>
-      <div className={styles.gridItem}> <form action="https://formspree.io/f/xvovrwkz" method="POST">
-        <input type="text" name="name"/>
-        <input type="email" name="_replyto"/>
-        <input type="submit" value="Send"/>
-      </form></div>
+      <div className={styles.gridItem}> 
+        
+      <div id={styles.contentImage}>
+          <figure >
+            <img src="/contact.jpg"/>
+          </figure>
+         
+          </div>
+  </div>
       <div className={styles.gridItem}></div>
       </div>
     </div>
