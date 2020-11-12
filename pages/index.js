@@ -93,11 +93,43 @@ export default function Home() {
           </div>
       <div id={styles.contentImage}>
       <h3> Connect with me </h3>
-      <form action="https://formspree.io/f/xvovrwkz" method="POST">
+
+
+      <div className={styles.container}>
+        <div className={styles.text}> Responsive Contact Us Form
+          <form  action="https://formspree.io/f/xvovrwkz" method="POST">
+            <div className={styles.formRow}>
+              <div className={styles.inputData}>
+                <input  type="text" name="email-address"/>
+                <label>Email Address</label>
+              </div>
+            </div>
+
+
+            <div className="form-row text-area">
+              <div className="input-data">
+              <textarea cols="30" rows="10"></textarea>
+                <label>Message</label>
+            </div>
+            </div>
+
+            <div className="form-row text-area">
+              <input type="submit"/>
+            </div>
+
+
+
+            
+          </form>
+        </div>
+      </div>
+
+
+      {/* <form action="https://formspree.io/f/xvovrwkz" method="POST">
         <input placeholder="Enter message here..." id={styles.summary} type="text" name="name"/>
         <input placeholder="Email" id={styles.emailAddress} type="email" name="_replyto"/>
         <input id={styles.send} type="submit" value="Send"/>
-      </form>
+      </form> */}
           </div>
           
           </div>
